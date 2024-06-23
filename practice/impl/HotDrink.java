@@ -22,6 +22,14 @@ public class HotDrink extends Product {
         return volume;
     }
     
+    public void setVolume(float volume) {
+    	this.volume = volume;
+    }
+    
+    public void setTemperature(float temperature) {
+    	this.temperature = temperature;
+    }
+    
     @Override
     public String toString() {
         return "HotDrink{" +
